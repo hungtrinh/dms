@@ -6,5 +6,6 @@ nbproject
 .idea
 .project
 .settings
+.svn
 composer.lock
 vendor/bin
