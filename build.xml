@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="DocumentManagementSystem" default="install-lib">
+
+ <target name="install-lib"
+    description="Composer Install dependencies php library">
+  <exec executable="php" failonerror="true">
+    <arg value="${basedir}/composer.phar" />
+    <arg value="install" />
+    <arg value="--prefer-dist" />
+    <arg value="-o" />
+  </exec>
+ </target>
+</project>

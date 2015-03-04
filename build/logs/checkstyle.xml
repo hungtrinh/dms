@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="2.0.0RC1">
+<file name="/var/www/money/src/JsonSerializable.php">
+ <error line="17" column="1" severity="error" message="Each interface must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+</file>
+</checkstyle>
+
