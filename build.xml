@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="DocumentManagementSystem" default="install-lib">
-
- <target name="install-lib"
-    description="Composer Install dependencies php library">
-  <exec executable="php" failonerror="true">
-    <arg value="${basedir}/composer.phar" />
-    <arg value="install" />
-    <arg value="--prefer-dist" />
-    <arg value="-o" />
-  </exec>
- </target>
+    <target
+        name="install-lib"
+        description="Composer Install dependencies php library. Run this target everytime after you add something to composer.json or that first time you setup project">
+        <exec executable="php" failonerror="true">
+            <arg value="${basedir}/composer.phar" />
+            <arg value="install" />
+            <arg value="--prefer-dist" />
+            <arg value="-o" />
+        </exec>
+    </target>
 </project>
